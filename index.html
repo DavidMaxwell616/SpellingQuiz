@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Spelling Test</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+  </script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+  </script>
+  <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+  </script>
+  <script>
+    var pos = 0,
+      test,
+      test_status,
+      question,
+      choice,
+      choices,
+      chA,
+      chB,
+      chC,
+      chD,
+      answers = [];
+    correct = 0;
+
+    var output =
+      '<form>' +
+      '<div class="container">' +
+      '<div class="card shadow p-3 mb-5 bg-white rounded" style="width:800px">' +
+      '<img class="card-img-top rounded mx-auto"' +
+      'src="assets/images/badspelling.webp" alt="Card image" style="width:90%">' +
+      '<div class="card-body" style="text-align: center;">' +
+      '<h2 class="quiz-title" style="margin: 10px 0px;">We Bet You Can’t Spell' +
+      ' the Top 50 Misspelled Words Correctly</h2>' +
+      '<p class="card-text">Remember grade school spelling tests? Do you watch ' +
+      'the Scripps National Spelling Bee on ESPN like the sport it rightfully ' +
+      'is? Okay, maybe people who think spelling’s a sport also think chess ' +
+      'is a sport (which it’s not),but if you did really well in school when ' +
+      'it came to spelling, we’re willing to wager that you probably wanted ' +
+      'a varsity letterman’s jacket to reflect your hard work and brain power. ' +
+      'Well, we hope you’ll consider this quiz a retroactive substitute. ' +
+      'Can you spell these top 50 misspelled words?<p></p> ' +
+      'These 50 words aren’t too complicated. In fact, you probably recite ' +
+      'them every day, write them down, or type them out. But, does your phone ' +
+      'auto-correct your spelling errors before you can edit yourself? ' +
+      'Does that squiggly red line shame you so aggressively that you’ve ' +
+      'given up on spelling all together? Be warned, however: this quiz looks ' +
+      'and maybe feels deceptively easy. Trust that it’s far from that. ' +
+      'We’re betting if you’re coming into this quiz super ' +
+      'confident, you’re going to get 15 more wrong than you think you will. ' +
+      'But hey, you’re welcome to prove us wrong!</p>' +
+      '</div>' +
+      '</div>';
+    $.getJSON('data.json', function (data) {
+      $.each(data, function (key, val) {
+        output +=
+          '<div class="card shadow p-3 mb-5 bg-white rounded" style="width:800px">';
+        output += '<div class="question">';
+        output +=
+          '<div class="card-title" style="text-align: center;">';
+        output += '<h2>#' + val.cardNumber + '</h2>';
+        output += '</div>';
+        output += '<img class="card-img-top rounded mx-auto"';
+        output +=
+          'src="assets/images/' +
+          val.picture +
+          '" alt="Card image" style="width:90%">';
+        output += '<div class="card-body">';
+        output +=
+          '<h3 class="card-title" style="text-align: center;margin: 10px 0px;">';
+        output += val.question + '</h3>';
+        output +=
+          '<div id="answer" style="display:none">' + val.answer +
+          '</div>';
+        output += '<p class="card-text" style="text-align: left;">';
+        output += '<div class="custom-control custom-radio">';
+        output +=
+          "<input class='custom-control-input' type='radio' name='choices" +
+          val.cardNumber +
+          "' value='A' id='choiceA" +
+          val.cardNumber +
+          "'>" +
+          "<label class='custom-control-label' for='choiceA" +
+          val.cardNumber +
+          "'>" +
+          val.option1 +
+          '</label></div><br>';
+        output += '<div class="custom-control custom-radio">';
+        output +=
+          "<input class='custom-control-input' type='radio' name='choices" +
+          val.cardNumber +
+          "' value='B' id='choiceB" +
+          val.cardNumber +
+          "'>" +
+          "<label class='custom-control-label' for='choiceB" +
+          val.cardNumber +
+          "'>" +
+          val.option2 +
+          '</label></div><br>';
+        output += '<div class="custom-control custom-radio">';
+        output +=
+          "<input class='custom-control-input' type='radio' name='choices" +
+          val.cardNumber +
+          "' value='C' id='choiceC" +
+          val.cardNumber +
+          "'>" +
+          "<label class='custom-control-label' for='choiceC" +
+          val.cardNumber +
+          "'>" +
+          val.option3 +
+          '</label></div><br>';
+        output += '<div class="custom-control custom-radio">';
+        output +=
+          "<input class='custom-control-input' type='radio' name='choices" +
+          val.cardNumber +
+          "' value='D' id='choiceD" +
+          val.cardNumber +
+          "'>" +
+          "<label class='custom-control-label' for='choiceD" +
+          val.cardNumber +
+          "'>" +
+          val.option4 +
+          '</label></div><br>';
+        output += '</div></div></div>';
+      });
+      output +=
+        '<div class="card shadow p-3 mb-5 bg-white rounded" style="width:800px">';
+      output += '<p class="card-content mx-auto">';
+      output += '<div id="results"></div>';
+      output +=
+        '<input class="btn btn-primary" id="result_button" type="submit" value="Grade Test">';
+      output += '</div></div></form>';
+      $('#test').html(output);
+      //       console.log(output);
+    });
+
+
+    function markIncorrect(el) {
+      var img = new Image();
+      img.src = 'assets/images/red x.png';
+      img.height = 100;
+      img.width = 120;
+      el.append(img);
+    }
+
+    function markCorrect(el) {
+      var img = new Image();
+      img.src = 'assets/images/green tick.png';
+      img.height = 100;
+      img.width = 120;
+      el.append(img);
+    }
+
+    function clearAnswers() {
+      $('img').each(function () {
+        $(this).remove();
+      });
+    }
+
+    $('form').on('submit', function (e) {
+      var score = 0;
+      e.preventDefault();
+      //clearAnswers();
+      $questions = $('.question');
+      $questions.each(function () {
+        var answer = $(this).find('input:checked'),
+          val = answer.attr('value');
+        var correctAnswer = $(this).find('#answer');
+        var correctVal = correctAnswer[0].innerHTML;
+        if (answer.length === 0) {
+          markIncorrect($(this).find('p'));
+        } else if (correctVal !== val) {
+          markIncorrect($(this).find('p'));
+        } else {
+          markCorrect(answer.parent());
+          score++;
+        }
+      });
+      var percent = Math.floor(score / 50 * 100) + "%";
+      var results = "<h2>You got " + score +
+        " of 50 questions correct: " + percent + "</h2><p></p>";
+      $('#results').html(results);
+      $('#result_button').attr("disabled", true);
+    });
+  </script>
+</head>
+
+<body>
+  <div id="test"></div>
+</body>
+
+</html>

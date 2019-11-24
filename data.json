@@ -1,0 +1,501 @@
+[{
+    "picture": "furniture.webp",
+    "cardNumber": "1",
+    "question": "What is this couple out shopping for? What do you call couches, chairs, and other things like that?",
+    "option1": "Furnature",
+    "option2": "Furniture",
+    "option3": "Furnitur",
+    "option4": "Furnatur",
+    "answer": "B"
+  },
+  {
+    "picture": "junkdrawer.webp",
+    "cardNumber": "2",
+    "question": "The junk drawer is for _____________ items.",
+    "option1": "Miscellaneous",
+    "option2": "Misellaneous",
+    "option3": "Missalaneous",
+    "option4": "Miscelaneus",
+    "answer": "A"
+  },
+  {
+    "picture": "restaurant.webp",
+    "cardNumber": "3",
+    "question": "What is this a picture of? Looks like the inside of a what?",
+    "option1": "Restarant",
+    "option2": "Resturant",
+    "option3": "Restaurant",
+    "option4": "Resteraunt",
+    "answer": "C"
+  },
+  {
+    "picture": "secretary.webp",
+    "cardNumber": "4",
+    "question": "The antiquated term for a receptionist/assistant is what?",
+    "option1": "Secaratary",
+    "option2": "Secritary",
+    "option3": "Secretery",
+    "option4": "Secretary",
+    "answer": "D"
+  },
+  {
+    "picture": "baseball.webp",
+    "cardNumber": "5",
+    "question": "It's commonly said that baseball is America's favorite ______________.",
+    "option1": "Passtime",
+    "option2": "Pasttime",
+    "option3": "Pastime",
+    "option4": "Past time",
+    "answer": "C"
+  },
+  {
+    "picture": "licenseplates.webp",
+    "cardNumber": "6",
+    "question": "This is a picture of several _________ plates from different states.",
+    "option1": "Licence",
+    "option2": "License",
+    "option3": "Lisence",
+    "option4": "Lisense",
+    "answer": "B"
+  },
+  {
+    "picture": "lightening.webp",
+    "cardNumber": "7",
+    "question": "Where there's thunder, there's ___________.",
+    "option1": "Lightning",
+    "option2": "Lightening",
+    "option3": "Litening",
+    "option4": "Litning",
+    "answer": "A"
+  },
+  {
+    "picture": "guidancecounselor.webp",
+    "cardNumber": "8",
+    "question": "What's the job title for your advisor at school that helps you along the way? A _________ counselor.",
+    "option1": "Guidence",
+    "option2": "Guidince",
+    "option3": "Guidance",
+    "option4": "Guidense",
+    "answer": "A"
+  },
+  {
+    "picture": "beach.webp",
+    "cardNumber": "9",
+    "question": "If you wanted to hang out on a beach like this, you'd have to go to a _________ island.",
+    "option1": "Caribean",
+    "option2": "Carribean",
+    "option3": "Caribbean",
+    "option4": "Carribbean",
+    "answer": "D"
+  },
+  {
+    "picture": "camouflage.webp",
+    "cardNumber": "10",
+    "question": "What's this pattern called?",
+    "option1": "Camoflage",
+    "option2": "Camouflage",
+    "option3": "Camoflague",
+    "option4": "Camoflodge",
+    "answer": "A"
+  },
+  {
+    "picture": "electricshock.webp",
+    "cardNumber": "11",
+    "question": "When hiring an electrician, it's important to hire a professional and not an ______________.",
+    "option1": "Amateur",
+    "option2": "Amateure",
+    "option3": "Amatur",
+    "option4": "Amature",
+    "answer": "A"
+  },
+  {
+    "picture": "northernlights.webp",
+    "cardNumber": "12",
+    "question": "The northern lights can be seen along the _________ circle.",
+    "option1": "Artic",
+    "option2": "Arctic",
+    "option3": "Arktic",
+    "option4": "Aurctic",
+    "answer": "B"
+  },
+  {
+    "picture": "foldedlaundry.webp",
+    "cardNumber": "13",
+    "question": "When doing the laundry, it's important to _________ your white clothes from dark and bright colored clothes.",
+    "option1": "Seperate",
+    "option2": "Separate",
+    "option3": "Separat",
+    "option4": "Seperete",
+    "answer": "B"
+  },
+  {
+    "picture": "forty.webp",
+    "cardNumber": "14",
+    "question": "What's this number called?",
+    "option1": "Fourty",
+    "option2": "Fourtie",
+    "option3": "Forty",
+    "option4": "Fortie",
+    "answer": "C"
+  },
+  {
+    "picture": "vacuum.webp",
+    "cardNumber": "15",
+    "question": "What's this woman holding? A _______.",
+    "option1": "Vacum",
+    "option2": "Vaccume",
+    "option3": "Vacuum",
+    "option4": "Vacuume",
+    "answer": "C"
+  },
+  {
+    "picture": "shhh.webp",
+    "cardNumber": "16",
+    "question": "When you keep a secret, you _________ information from someone, or a group of people.",
+    "option1": "Withold",
+    "option2": "Withhold",
+    "option3": "With hold",
+    "option4": "Withehold",
+    "answer": "B"
+  },
+  {
+    "picture": "shakespeare.webp",
+    "cardNumber": "17",
+    "question": "Shakespeare is a famous _____________.",
+    "option1": "Playwrite",
+    "option2": "Playwright",
+    "option3": "Playwrit",
+    "option4": "Playright",
+    "answer": "B"
+  },
+  {
+    "picture": "chameleon.webp",
+    "cardNumber": "18",
+    "question": "When you want to say something comes before something else, you'd say that it __________ the other thing.",
+    "option1": "Precedes",
+    "option2": "Preceeds",
+    "option3": "Preseds",
+    "option4": "Preseeds",
+    "answer": "A"
+  },
+  {
+    "picture": "trendy.webp",
+    "cardNumber": "19",
+    "question": "When you're a needy person who needs a lot of attention, people will say you're high ___________.",
+    "option1": "Maintenence",
+    "option2": "Maintanance",
+    "option3": "Maintenance",
+    "option4": "Maintinance",
+    "answer": "C"
+  },
+  {
+    "picture": "justice.webp",
+    "cardNumber": "20",
+    "question": "Defendants in court are awaiting ____________ for their alleged crimes.",
+    "option1": "Judgment",
+    "option2": "Judgement",
+    "option3": "Judgmint",
+    "option4": "Judgemint",
+    "answer": "B"
+  },
+  {
+    "picture": "jewelry.webp",
+    "cardNumber": "21",
+    "question": "Look at this person's delicate gold _________.",
+    "option1": "Jewlery",
+    "option2": "Jewelery",
+    "option3": "Jewelry",
+    "option4": "Jewlry",
+    "answer": "C"
+  },
+  {
+    "picture": "graveyard.webp",
+    "cardNumber": "22",
+    "question": "What's this a picture of? It's another word for graveyard.",
+    "option1": "Cemetery",
+    "option2": "Cemetary",
+    "option3": "Cematary",
+    "option4": "Semitary",
+    "answer": "A"
+  },
+  {
+    "picture": "apocalypse.webp",
+    "cardNumber": "23",
+    "question": "The apocalypse would be a _________ event.",
+    "option1": "Disasterus",
+    "option2": "Disasterous",
+    "option3": "Disastrus",
+    "option4": "Disastrous",
+    "answer": "D"
+  },
+  {
+    "picture": "graveyard.webp",
+    "cardNumber": "24",
+    "question": "When you're trying to make a difficult choice between two options, you have a _________ on your hands.",
+    "option1": "Dilema",
+    "option2": "Dilemma",
+    "option3": "Dulema",
+    "option4": "Dulemma",
+    "answer": "B"
+  },
+  {
+    "picture": "americanflag.webp",
+    "cardNumber": "25",
+    "question": "Some American children recite the Pledge of ___________ every day in school.",
+    "option1": "Allegience",
+    "option2": "Alegiance",
+    "option3": "Allegiance",
+    "option4": "Allegaince",
+    "answer": "B"
+  },
+  {
+    "picture": "privatejet.webp",
+    "cardNumber": "26",
+    "question": "The uneven distribution of wealth leads to an aristocracy that believes their needs _________ those of the working class.",
+    "option1": "Supercede",
+    "option2": "Supersede",
+    "option3": "Superseed",
+    "option4": "Superceed",
+    "answer": "A"
+  },
+  {
+    "picture": "shock.webp",
+    "cardNumber": "27",
+    "question": "A party in your honor that you're not expecting is a ___________ party.",
+    "option1": "Suprise",
+    "option2": "Surprise",
+    "option3": "Suprize",
+    "option4": "Surprize",
+    "answer": "B"
+  },
+  {
+    "picture": "picnic.webp",
+    "cardNumber": "28",
+    "question": "What do you call it when you have lunch outdoors, sit on the ground, and enjoy the day?",
+    "option1": "Picnic",
+    "option2": "Picinic",
+    "option3": "Picnick",
+    "option4": "Picinick",
+    "answer": "A"
+  },
+  {
+    "picture": "sterilesuit.webp",
+    "cardNumber": "29",
+    "question": "People with highly infectious diseases or weakened immune systems are frequently put in ____________.",
+    "option1": "Quarantine",
+    "option2": "Quarrantine",
+    "option3": "Quarrentine",
+    "option4": "Quarentine",
+    "answer": "A"
+  },
+  {
+    "picture": "pimple.webp",
+    "cardNumber": "30",
+    "question": "When you get a pimple, you're hoping that it's not __________ to others.",
+    "option1": "Noticable",
+    "option2": "Noticible",
+    "option3": "Noticeable",
+    "option4": "Noticeible",
+    "answer": "C"
+  },
+  {
+    "picture": "paperpeople.webp",
+    "cardNumber": "31",
+    "question": "When you care about the health, happiness, and well being of others, you care about their general ___________.",
+    "option1": "Welfair",
+    "option2": "Wellfair",
+    "option3": "Welfare",
+    "option4": "Wellfare",
+    "answer": "C"
+  },
+  {
+    "picture": "dmv.webp",
+    "cardNumber": "32",
+    "question": "What does the V in DMV stand for?",
+    "option1": "Vehicles",
+    "option2": "Vehicals",
+    "option3": "Vehicels",
+    "option4": "Vehecle",
+    "answer": "A"
+  },
+  {
+    "picture": "cooking.webp",
+    "cardNumber": "33",
+    "question": "When you follow instructions step by step in preparing a meal, you're following a what?",
+    "option1": "Resipie",
+    "option2": "Recepie",
+    "option3": "Recipie",
+    "option4": "Recipe",
+    "answer": "D"
+  },
+  {
+    "picture": "woman2.webp",
+    "cardNumber": "34",
+    "question": "When you do something against all odds and adversity, it's thanks to your what?",
+    "option1": "Perseverence",
+    "option2": "Perserverece",
+    "option3": "Perseverance",
+    "option4": "Perserverance",
+    "answer": "D"
+  },
+  {
+    "picture": "urgent.webp",
+    "cardNumber": "35",
+    "question": "When something needs to get done right this second, it needs to be done ___________.",
+    "option1": "Imediately",
+    "option2": "Immediately",
+    "option3": "Immedietely",
+    "option4": "Immediatly",
+    "answer": "B"
+  },
+  {
+    "picture": "crossedfingers.webp",
+    "cardNumber": "36",
+    "question": "When you con someone into believing something that isn't true, you ________ them.",
+    "option1": "Decieve",
+    "option2": "Deseve",
+    "option3": "Disceve",
+    "option4": "Deceive",
+    "answer": "D"
+  },
+  {
+    "picture": "handshake.webp",
+    "cardNumber": "37",
+    "question": "It's important to __________ your colleagues for their hard work.",
+    "option1": "Acknowledge",
+    "option2": "Acknowlege",
+    "option3": "Aknowledge",
+    "option4": "Acknoweldge",
+    "answer": "C"
+  },
+  {
+    "picture": "whiteflag.webp",
+    "cardNumber": "38",
+    "question": "Clearly this person knows they're going to lose this game of ping pong. They're going to _______ the match by waving a white flag.",
+    "option1": "Concede",
+    "option2": "Conceed",
+    "option3": "Consede",
+    "option4": "Conseed",
+    "answer": "A"
+  },
+  {
+    "picture": "idea.webp",
+    "cardNumber": "39",
+    "question": "When you get the general idea of something, you get the ___________ of it.",
+    "option1": "Jist",
+    "option2": "Gist",
+    "option3": "Jiste",
+    "option4": "Giste",
+    "answer": "B"
+  },
+  {
+    "picture": "calendar.webp",
+    "cardNumber": "40",
+    "question": "This is a picture of a digital desk ____________.",
+    "option1": "Calandar",
+    "option2": "Calender",
+    "option3": "Calendar",
+    "option4": "Calendur",
+    "answer": "C"
+  },
+  {
+    "picture": "vintagephoto.webp",
+    "cardNumber": "41",
+    "question": "When you get nostalgic about the good ol' days, you __________ on memories past.",
+    "option1": "Reminise",
+    "option2": "Reminice",
+    "option3": "Reminisce",
+    "option4": "Reminicse",
+    "answer": "D"
+  },
+  {
+    "picture": "dumbbell.webp",
+    "cardNumber": "42",
+    "question": "What's a weight called? Not a barbell, but a what?",
+    "option1": "Dumbell",
+    "option2": "Dumbel",
+    "option3": "Dumbbel",
+    "option4": "Dumbbell",
+    "answer": "D"
+  },
+  {
+    "picture": "metoo.webp",
+    "cardNumber": "43",
+    "question": "It's important to not sexually ________ your employees (or anyone for that matter).",
+    "option1": "Haras",
+    "option2": "Harass",
+    "option3": "Harras",
+    "option4": "Harrass",
+    "answer": "B"
+  },
+  {
+    "picture": "gauge.webp",
+    "cardNumber": "44",
+    "question": "When you estimate the magnitude of something you _______ it.",
+    "option1": "Gage",
+    "option2": "Guage",
+    "option3": "Gauge",
+    "option4": "Gaige",
+    "answer": "C"
+  },
+  {
+    "picture": "jobinterview.webp",
+    "cardNumber": "45",
+    "question": "The job posting requested at least two years ___________ in the field.",
+    "option1": "Experiance",
+    "option2": "Expereince",
+    "option3": "Experience",
+    "option4": "Experianse",
+    "answer": "C"
+  },
+  {
+    "picture": "woman.webp",
+    "cardNumber": "46",
+    "question": "When you're thankful for your life, one might say you're ___________.",
+    "option1": "Grateful",
+    "option2": "Greatful",
+    "option3": "Gratefull",
+    "option4": "Greatfull",
+    "answer": "C"
+  },
+  {
+    "picture": "justice.webp",
+    "cardNumber": "47",
+    "question": "What is it called when you formally accuse someone of a very serious crime?",
+    "option1": "Indite",
+    "option2": "Indict",
+    "option3": "Indight",
+    "option4": "Indit",
+    "answer": "B"
+  },
+  {
+    "picture": "vaccination.webp",
+    "cardNumber": "48",
+    "question": "When a doctor gives someone a vaccine, they ________ their patient.",
+    "option1": "Inoculate",
+    "option2": "Innoculate",
+    "option3": "Inocculate",
+    "option4": "Innocculate",
+    "answer": "A"
+  },
+  {
+    "picture": "heartbreak.webp",
+    "cardNumber": "49",
+    "question": "______________, heartbreak is a risk we all take when beginning a romantic relationship.",
+    "option1": "Unfortunatly",
+    "option2": "Unfortunitely",
+    "option3": "Unfortunately",
+    "option4": "Unfortunetely",
+    "answer": "C"
+  },
+  {
+    "picture": "schoolsucks.webp",
+    "cardNumber": "50",
+    "question": "Ready to get meta? It's very easy to ________ words when you didn't pay attention in school.",
+    "option1": "Mispel",
+    "option2": "Misspel",
+    "option3": "Mispell",
+    "option4": "Misspell",
+    "answer": "D"
+  }
+]
