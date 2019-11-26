@@ -17,20 +17,11 @@
     src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
   </script>
   <script>
-    var pos = 0,
-      test,
-      test_status,
-      question,
-      choice,
-      choices,
-      chA,
-      chB,
-      chC,
-      chD,
-      answers = [];
-    correct = 0;
+    
+    var correct = 0;
+var output;
 
-    var output =
+    output =
       '<form>' +
       '<div class="container">' +
       '<div class="card shadow p-3 mb-5 bg-white rounded" style="width:800px">' +
@@ -58,6 +49,9 @@
       'But hey, you’re welcome to prove us wrong!</p>' +
       '</div>' +
       '</div>';
+
+
+
     $.getJSON('data.json', function (data) {
       $.each(data, function (key, val) {
         output +=
@@ -137,12 +131,38 @@
       output +=
         '<input class="btn btn-primary" id="result_button" type="submit" value="Grade Test">';
       output += '</div></div></form>';
+      output += "<script>$('form').on('submit', function (e) {" +
+      "var score = 0;"+
+      "e.preventDefault();"+
+      //clearAnswers();
+      "$questions = $('.question');"+
+      "$questions.each(function () {"+
+      "var answer = $(this).find('input:checked'),"+
+      "val = answer.attr('value');"+
+      "var correctAnswer = $(this).find('#answer');"+
+      "var correctVal = correctAnswer[0].innerHTML;"+
+      "if (answer.length === 0) {"+
+      "markIncorrect($(this).find('p'));"+
+      "} else if (correctVal !== val) {"+
+      "markIncorrect($(this).find('p'));"+
+      "} else {"+
+      "markCorrect(answer.parent());"+
+      "score++;"+
+      "}"+
+      "});"+
+      "var percent = Math.floor(score / 50 * 100) + '%';"+
+      'var results = "<h2>You got " + score + '+
+        '" of 50 questions correct: " + percent + "</h2><p></p>";'+
+      "$('#results').html(results);"+
+      "$('#result_button').attr('disabled', true);"+
+      "});<\/script>'";
+
       $('#test').html(output);
       //       console.log(output);
     });
 
 
-    function markIncorrect(el) {
+      function markIncorrect(el) {
       var img = new Image();
       img.src = 'assets/images/red x.png';
       img.height = 100;
@@ -163,32 +183,7 @@
         $(this).remove();
       });
     }
-
-    $('form').on('submit', function (e) {
-      var score = 0;
-      e.preventDefault();
-      //clearAnswers();
-      $questions = $('.question');
-      $questions.each(function () {
-        var answer = $(this).find('input:checked'),
-          val = answer.attr('value');
-        var correctAnswer = $(this).find('#answer');
-        var correctVal = correctAnswer[0].innerHTML;
-        if (answer.length === 0) {
-          markIncorrect($(this).find('p'));
-        } else if (correctVal !== val) {
-          markIncorrect($(this).find('p'));
-        } else {
-          markCorrect(answer.parent());
-          score++;
-        }
-      });
-      var percent = Math.floor(score / 50 * 100) + "%";
-      var results = "<h2>You got " + score +
-        " of 50 questions correct: " + percent + "</h2><p></p>";
-      $('#results').html(results);
-      $('#result_button').attr("disabled", true);
-    });
+    
   </script>
 </head>
 

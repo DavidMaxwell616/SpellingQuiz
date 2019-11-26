@@ -76,7 +76,7 @@
     "option2": "Guidince",
     "option3": "Guidance",
     "option4": "Guidense",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "picture": "beach.webp",
@@ -86,7 +86,7 @@
     "option2": "Carribean",
     "option3": "Caribbean",
     "option4": "Carribbean",
-    "answer": "D"
+    "answer": "C"
   },
   {
     "picture": "camouflage.webp",
@@ -96,7 +96,7 @@
     "option2": "Camouflage",
     "option3": "Camoflague",
     "option4": "Camoflodge",
-    "answer": "A"
+    "answer": "B"
   },
   {
     "picture": "electricshock.webp",
@@ -196,7 +196,7 @@
     "option2": "Judgement",
     "option3": "Judgmint",
     "option4": "Judgemint",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "picture": "jewelry.webp",
@@ -246,7 +246,7 @@
     "option2": "Alegiance",
     "option3": "Allegiance",
     "option4": "Allegaince",
-    "answer": "B"
+    "answer": "C"
   },
   {
     "picture": "privatejet.webp",
@@ -256,7 +256,7 @@
     "option2": "Supersede",
     "option3": "Superseed",
     "option4": "Superceed",
-    "answer": "A"
+    "answer": "B"
   },
   {
     "picture": "shock.webp",
@@ -336,7 +336,7 @@
     "option2": "Perserverece",
     "option3": "Perseverance",
     "option4": "Perserverance",
-    "answer": "D"
+    "answer": "C"
   },
   {
     "picture": "urgent.webp",
@@ -366,7 +366,7 @@
     "option2": "Acknowlege",
     "option3": "Aknowledge",
     "option4": "Acknoweldge",
-    "answer": "C"
+    "answer": "A"
   },
   {
     "picture": "whiteflag.webp",
@@ -406,7 +406,7 @@
     "option2": "Reminice",
     "option3": "Reminisce",
     "option4": "Reminicse",
-    "answer": "D"
+    "answer": "C"
   },
   {
     "picture": "dumbbell.webp",
@@ -456,7 +456,7 @@
     "option2": "Greatful",
     "option3": "Gratefull",
     "option4": "Greatfull",
-    "answer": "C"
+    "answer": "A"
   },
   {
     "picture": "justice.webp",
